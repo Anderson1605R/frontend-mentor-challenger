@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results summary component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="content">
+        <div class="right-side">
+          <div>
+            <h2 class="right-h2">Your Result</h2>
+          </div>
+          <div>
+            <p id="numbers">
+              <span id="num">76</span><span id="num2">of 100</span>
+            </p>
+          </div>
+          <div>
+            <h1>Great</h1>
+          </div>
+          <div>
+            <p id="paragraph">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div class="left-side">
+          <div>
+            <h2 class="summary">Summary</h2>
+          </div>
+          <ul>
+            <li class="li-red">
+              <span id="red-span"
+                ><img src="assets/img/icon-reaction.svg" alt="" />Reaction</span
+              >
+              <p><span class="num-spam">80 /</span> 100</p>
+            </li>
+            <li class="li-yellow">
+              <span id="yellow-span"
+                ><img src="assets/img/icon-memory.svg" alt="" />Memory</span
+              >
+              <p><span class="num-spam">92 /</span> 100</p>
+            </li>
+            <li class="li-green">
+              <span id="green-span"
+                ><img src="assets/img/icon-verbal.svg" alt="" />Verbal</span
+              >
+              <p><span class="num-spam">61 /</span> 100</p>
+            </li>
+            <li class="li-blue">
+              <span id="blue-span"
+                ><img src="assets/img/icon-visual.svg" alt="" />Visual</span
+              >
+              <p><span class="num-spam">72 /</span> 100</p>
+            </li>
+          </ul>
+          <div><button class="btn">Continue</button></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
